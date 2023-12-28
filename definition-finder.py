@@ -6,8 +6,8 @@ count = 0
 urlBasic = "https://www.ldoceonline.com/dictionary/"
 
 # File info
-FileName = "word-list"
-Extension = ".xlsx" 
+FileName = "FILE NAME" # Set file name
+Extension = ".xlsx" # Set Extension
 Sheet_Num = 0
 
 # Load Excel file
