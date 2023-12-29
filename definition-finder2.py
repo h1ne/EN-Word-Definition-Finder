@@ -5,7 +5,7 @@ import openpyxl
 URL_BASIC = "https://www.ldoceonline.com/dictionary/"
 
 # File info
-FILE_PATH = "word-list" # Set file name
+FILE_PATH = "FILE NAME" # Set file name
 EXTENTION = ".xlsx" # Set EXTENTION
 SHEET_NUM = 0
 MAX_ROWS = 1048576
