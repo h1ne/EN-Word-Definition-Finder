@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/-BeautifulSoup-3776AB.svg?logo=python&style=social">
 
 ## 内容
-本プログラムはPythonライブラリであるBeautifulSoupより英単語の意味を自動で取得するプログラムです。
+本プログラムはPythonライブラリであるBeautifulSoupにより英単語の意味を自動で取得するプログラムです。
 単語の意味は、[ロングマン現代英英辞典](https://www.ldoceonline.com/)より自動で取得され、指定のExcelファイルへ書き出される仕組みになっております。
 
 ファイル構成
@@ -29,7 +29,7 @@ pip install requests beautifulsoup4 openpyxl
 初めに、以下の画像のようにExcelファイルの１カラムに調べたい単語をリストアップします。
 <img width="529" alt="image1" src="https://github.com/h1ne/wordwhiz/assets/130957043/20451039-84f7-4e99-bc21-8f05255d2e09">
 
-次に、作成したExcelファイルをプログラムと同じ階層のディレクトリに配置します。この時、プログラム内の以下の部分の`FILE NAME`をExcelファイル名に変更します。
+次に、作成したExcelファイルをプログラムと同じ階層のディレクトリに配置します。この時、プログラム内の以下の部分の`FILE NAME`を**拡張子を除いた**Excelのファイル名に変更します。
 
 ```
 # File info
