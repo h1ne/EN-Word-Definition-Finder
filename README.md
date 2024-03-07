@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/-BeautifulSoup-3776AB.svg?logo=python&style=social">
 
 ## 内容
-本プログラムはPythonライブラリであるBeautifulSoupにより英単語の意味を自動で取得するプログラムです。
+本ツールはPythonライブラリであるBeautifulSoupにより英単語の意味を自動で取得します。
 単語の意味は、[ロングマン現代英英辞典](https://www.ldoceonline.com/)より自動で取得され、指定のExcelファイルへ書き出される仕組みになっております。
 
 ファイル構成
